@@ -17,7 +17,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 		const headers = new Headers();
 		headers.append('Content-Type', 'application/json');
 		headers.append('Accept', 'application/json');
-		headers.append('token', 'token f05b47750ff0912:e49eb1325342b1b');
+		headers.append('token', 'f05b47750ff0912:e49eb1325342b1b');
 
 		const init = {
 			method: 'GET',
